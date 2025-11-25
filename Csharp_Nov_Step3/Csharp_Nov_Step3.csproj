@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MathContainer.Program</StartupObject>
+    <StartupObject>Methods_Advanced_Container.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
