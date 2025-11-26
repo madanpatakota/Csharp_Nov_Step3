@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Methods_Advanced_Container.Program</StartupObject>
+    <StartupObject>RefandOutContainer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="1.Methods_Revision.cs" />
     <Compile Include="2.Methods_Advanced.cs" />
+    <Compile Include="3.Methods_ref_out.cs" />
+    <Compile Include="4.ExtensionMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
