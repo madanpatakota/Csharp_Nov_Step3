@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RefandOutContainer.Program</StartupObject>
+    <StartupObject>AsyncContainer.workOuts</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,8 @@
     <Compile Include="2.Methods_Advanced.cs" />
     <Compile Include="3.Methods_ref_out.cs" />
     <Compile Include="4.ExtensionMethods.cs" />
+    <Compile Include="5.Sync-call.cs" />
+    <Compile Include="6.Async\1.Async-Basics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
