@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncContainer.workOuts</StartupObject>
+    <StartupObject>UserAsyncContainer.UserAsyncClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,9 @@
     <Compile Include="4.ExtensionMethods.cs" />
     <Compile Include="5.Sync-call.cs" />
     <Compile Include="6.Async\1.Async-Basics.cs" />
+    <Compile Include="6.Async\2.Async_Advanced.cs" />
+    <Compile Include="6.Async\3.AsyncOtherExample.cs" />
+    <Compile Include="6.Async\4.Async-With-Params.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
