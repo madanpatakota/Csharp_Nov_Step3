@@ -25,6 +25,8 @@ namespace UserAsyncContainer
 
             int id      = studentIDTask.Result;
             string name = studentNameTask.Result;
+
+            //name._____________   = "john";
             bool isMerit = studentIsMeritTask.Result;
 
             Console.WriteLine(id);
