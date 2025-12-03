@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExceptionHanlding.Program</StartupObject>
+    <StartupObject>CustomExceptionContainer.Programs</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Methods_Revision.cs" />
+    <Compile Include="10.CustomException.cs" />
     <Compile Include="8.Extension_Methods_Datatypes.cs" />
     <Compile Include="2.Methods_Advanced.cs" />
     <Compile Include="3.Methods_ref_out.cs" />

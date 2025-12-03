@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ExceptionHanlding
 {
@@ -55,16 +56,46 @@ Try-Catch Blocks: Exception handling in C# is typically done using try-catch blo
                 //carEngineStatus = carEngineStatus ?? "unknown";
                 try
                 {
+
+
+                    //throw new NullReferenceException();  // manually u r telling to the compleier plz excutes.
+
+
                     carFuelStatus = carFuelStatus.Replace(carFuelStatus, "Empty");
                     carEngineStatus = carEngineStatus.Replace(carEngineStatus, "Bad");
                     Console.WriteLine($"Customer car has issue {carFuelStatus} , {carEngineStatus}");
+
+
+                    ////hot coded values....
+                    ////string[] names = new string[2];
+                    ////names[0] = "John";
+                    ////names[1] = "Robert";
+                    ////names[2] = "Martin";
+
+                    //var list = new List<int> { 10, 20, 30 };
+                    //int tenthNumber = list[10];
+
                 }
-                catch (NullReferenceException ex)
+                catch(Exception ex)
                 {
-                    Console.WriteLine($"Ysour input(s) are not valid... Please re-check again and your expcetion message is {ex.Message}");
+                    Console.WriteLine("Server is donw . pLease try again after some time..");
                 }
-
-
+                finally
+                {
+                    Console.WriteLine("Exception handled  has occureded");
+                }
+                //catch (NullReferenceException ex)
+                //{
+                //    Console.WriteLine($"Ysour input(s) are not valid... Please re-check again and your expcetion message is {ex.Message}");
+                //}
+                //catch (IndexOutOfRangeException ex)
+                //{
+                //    Console.WriteLine($"Your input(s) are crossed more than the index and your issue is: {ex.Message}");
+                //}
+                //catch (ArgumentOutOfRangeException ex)
+                //{
+                //    Console.WriteLine($"Your input(s) are crossed more than the index and your issue is: {ex.Message}");
+                //}
 
                 Console.WriteLine("Hello world ... what are you doing .....Code has executed");
             }
@@ -86,7 +117,7 @@ Try-Catch Blocks: Exception handling in C# is typically done using try-catch blo
             //string UserInputEngineStatus = "Not-Good";
 
 
-            string UserInputFuelStatus = null;
+            string UserInputFuelStatus   = "Not-Full";
             string UserInputEngineStatus = "Not-Good";
 
 
